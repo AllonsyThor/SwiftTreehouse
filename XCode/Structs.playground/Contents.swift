@@ -1,5 +1,14 @@
-//: Playground - noun: a place where people can play
+//Struct
 
 import UIKit
 
-var str = "Hello, playground"
+struct Contact {
+    var firstName: String
+    var lastName: String
+}
+
+var person = Contact(firstName: "John", lastName: "Smith")
+person.firstName
+person.lastName
+
+
